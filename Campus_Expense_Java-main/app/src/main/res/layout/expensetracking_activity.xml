@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".ExpenseTracking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_weight="1"
+            android:backgroundTint="#6A9CFD"
+            android:textColor="@color/white"
+            android:layout_gravity="start" />
+
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button_add_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Expense"
+            android:layout_weight="1"
+            android:backgroundTint="#E893C5"
+            android:textColor="@color/white"
+            android:layout_gravity="end" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense Tracking"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#6A9CFD"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_no_expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No expenses added yet"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/text_budget_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/text_total_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Total Amount: $0 "
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance: $0 "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#6A9CFD"/>
+
+    <EditText
+        android:id="@+id/edit_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set balance"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/button_set_budget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Budget"/>
+    <Button
+        android:id="@+id/button_add_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Money"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Campus Expense Manager</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="description">Description</string>
+    <string name="create_account">Create Account</string>
+    <string name="app">Campus Expense Manager</string>
+    <string-array name="expense_categories">
+        <item>Category</item>
+        <item>Electricity bill</item>
+        <item>Rent</item>
+        <item>Shopping</item>
+        <item>Food</item>
+        <item>Drinks</item>
+        <item>Travel</item>
+        <item>Other</item>
+    </string-array>
+</resources>

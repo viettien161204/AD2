@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey">#61787474</color>
+
+    <color name="pink">#F3D1DC</color>
+    <color name="yellow">#FCF0CF</color>
+    <color name="y3llow">#FDCF76</color>
+    <color name="green1">#84D9BA</color>
+    <color name="pjnk">#F479A3</color>
+    <color name="purple">#D0B9F8</color>
+    <color name="purpl3">#F6A7C1</color>
+    <color name="blue">#006897</color>
+    <color name="brown">#AF6E4E</color>
+    <color name="gr3en">#3C7363</color>
+    <color name="gr33n">#E8F1FD</color>
+    <color name="Green">#89EAB2</color>
+    <color name="whit3">#E6DCE5</color>
+    <color name="Orange">#ECAD8F</color>
+    <color name="blu3">#B2D9EA</color>
+    <color name="Orang3">#F4DCD6</color>
+    <color name="y3llOw">#F2CF59</color>
+    <color name="Blue">#84B4C8</color>
+    <color name="GReen">#619196</color>
+    <color name="human">#9B8D89</color>
+    <color name="green">#4CAF50</color> <!-- Màu xanh -->
+    <color name="orange">#FFA500</color> <!-- Màu cam -->
+    <color name="red">#F44336</color> <!-- Màu đỏ -->
+
+
+
+
+
+
+
+</resources>
